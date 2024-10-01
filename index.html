@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accelerometer Web App</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .accelerometer-data {
+            font-size: 24px;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Accelerometer Data</h1>
+    <div class="accelerometer-data" id="x">X: 0</div>
+    <div class="accelerometer-data" id="y">Y: 0</div>
+    <div class="accelerometer-data" id="z">Z: 0</div>
+
+    <script src="accelerometer.js"></script>
+</body>
+</html>
